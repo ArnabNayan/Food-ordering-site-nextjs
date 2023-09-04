@@ -1,8 +1,6 @@
-"use client"
-import { useEffect } from "react";
-import AOS from "aos";
 
-import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -22,13 +20,7 @@ export const metadata = {
 }
 
  const RootLayout=({ children })=>{
-  useEffect(() => {
-    AOS.init({
-      easing: "ease-out-cubic",
-      once: true,
-      offset: 50,
-    });
-  }, []);
+ 
   return (
     <html lang="en">
    

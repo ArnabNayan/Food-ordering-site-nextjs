@@ -7,8 +7,7 @@ const Specialmenu = () => {
        
  
   <div className="flex-1 w-full relative md:h-full mt-2 ">
-    <Image data-aos="fade-down"data-aos-easing="linear"
-     data-aos-duration="1500" src={image5} alt=""width={550}height={100}  className="object-contain" />
+    <Image  src={image5} alt=""width={550}height={100}  className="object-contain" />
   </div>
 
   <div className="flex-1 flex flex-col text-center  p-6 ">
