@@ -7,7 +7,8 @@ const Product = async() => {
    const products=await getProduct();
     
     return(
-      <div className=" overflow-x-scroll text-yellow-500 font-bold">
+      <div data-aos="zoom-in"
+      data-aos-duration="1000" className=" overflow-x-scroll text-yellow-500 font-bold">
         {/* WRAPPER */}
         <div className="w-max flex ">
           {/* SINGLE ITEM */}

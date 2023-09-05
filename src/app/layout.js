@@ -6,6 +6,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Notifications from '@/components/Notifications'
 import Footer from '@/components/Footer'
+import { AOSInit } from './aos'
 
 
 
@@ -23,7 +24,7 @@ export const metadata = {
  
   return (
     <html lang="en">
-   
+       <AOSInit/>
       <body className={inter.className}>
         <Notifications/>
         <Navbar/>
