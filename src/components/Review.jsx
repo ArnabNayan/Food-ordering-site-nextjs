@@ -30,7 +30,7 @@ const Review = () => {
       }
     }
     return (
-      <div className='bg-black  md:bg-[url("/offerBg.png")]' data-aos="fade-up"
+      <div className='bg-black md:bg-[url("/offerBg.png")] mt-3' data-aos="fade-up-right"
       data-aos-easing="linear"   data-aos-duration="1000">
         <h1 className='text-center text-yellow-500  font-bold'>Testimonials</h1>
         <h1 className='text-center font-bold text-white text-3xl md:text-5xl py-3'>Why Our Client Choose Us</h1>
