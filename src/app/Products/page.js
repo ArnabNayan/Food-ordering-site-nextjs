@@ -1,5 +1,6 @@
 import getProduct from '@/utils/getProduct';
 import { PHASE_PRODUCTION_SERVER } from 'next/dist/shared/lib/constants';
+
 import Image from 'next/image';
 import React from 'react';
 
@@ -12,6 +13,7 @@ const Productpage = async() => {
     const products=await getProduct();
     return (
         <div className=" overflow-x-scroll text-yellow-500 font-bold">
+          
         {/* WRAPPER */}
         <div className="w-max flex ">
           {/* SINGLE ITEM */}
