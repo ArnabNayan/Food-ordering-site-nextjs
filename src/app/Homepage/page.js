@@ -20,7 +20,7 @@ const Homepage = () => {
      return (
 
  
- <div>
+ <div className="overflow-x-hidden overflow-y-hidden">
   <Slider/>
   <Product/>
   <Offer/>
