@@ -12,8 +12,8 @@ const GetOrder = () => {
         
         <button className="bg-yellow-500 text-white rounded-md py-3 px-6">Order Now</button>
             </div>
-            <div className="flex-1 w-full relative md:h-full overflow-hidden">
-               <Image data-aos="fade-up-left"duration="2000"  src="/order3.avif"alt=""width={494} height={100}  className="object-contain hover:scale-110"></Image>
+            <div className="flex-1 w-full relative md:h-full ">
+               <Image data-aos="fade-up-left"duration="2000"  src="/order3.avif"alt=""fill  className="object-contain hover:scale-110"></Image>
             </div>
             
         </div>

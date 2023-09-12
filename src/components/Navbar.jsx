@@ -24,7 +24,7 @@ const Navbar = () => {
           </div>
           <h1 className="text-yellow-500 md:text-center text-2xl md:text-5xl font-extrabold lg:-ml-20">FoodieZone</h1>
             <div className="hidden md:flex justify-center gap-8 lg:-ml-16">
-            <Link className="font-bold text-base" href="/Events">Events</Link>
+            <Link className="font-bold text-base" href="/AboutUs">AboutUs</Link>
          <Link className="font-bold text-base" href="/Blog">Blog</Link>
          <Link className="font-bold text-base" href="/Contacts">Contact</Link>
           </div>

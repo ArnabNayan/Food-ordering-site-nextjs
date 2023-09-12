@@ -26,7 +26,7 @@ const Openmenu = () => {
          <Link className="font-bold " href="/Products">Products</Link>
          <Link className="font-bold " href="/Menu">Menu</Link>
          {/* <h1 className="text-yellow-500  lg:text-5xl font-extrabold flex">FoodieZone</h1> */}
-         <Link className="font-bold " href="/Events">Events</Link>
+         <Link className="font-bold " href="/AboutUs">AboutUs</Link>
          <Link className="font-bold " href="/Blog">Blog</Link>
          <Link className="font-bold " href="/Contacts">Contact</Link>
          <Image className="bg-yellow-500 px-2 py-2 rounded-full" src={image2}alt=""width={40}height={40}></Image>

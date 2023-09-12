@@ -5,7 +5,7 @@ const Footer = () => {
         <>
    
 
-<footer  data-aos="zoom-in"duration="2000" className="footer md:flex flex-col justify-center items-center md:flex-row md:justify-between h-auto md:h-[40vh] bg-black text-white p-4 md:p-20">
+<footer  className="footer md:flex flex-col justify-center items-center md:flex-row md:justify-between h-auto md:h-[40vh] bg-black text-white p-4 md:p-20">
   <div className="text-center md:text-left mb-4 md:mb-0">
     <span className="font-bold text-yellow-500">Services</span> 
     <a className="link link-hover">Branding</a> 
@@ -43,7 +43,7 @@ const Footer = () => {
   </div>
 </footer>
 
-<footer  data-aos="zoom-in"duration="2000" className="footer md:flex flex-col items-center justify-center  bg-black text-white p-4 ">
+<footer  className="footer md:flex flex-col items-center justify-center  bg-black text-white p-4 ">
   <div>
     <h1 className='text-4xl text-yellow-500 font-bold text-center mx-auto'>FoodieZone</h1>
     <p className='text-yellow-500 font-medium text-sm py-2'>Copyright © 2023 - All rights reserved by FoodieZone Company Ltd.</p>
