@@ -6,35 +6,35 @@ const Footer = () => {
    
 
 <footer  className="footer md:flex flex-col justify-center items-center md:flex-row md:justify-between h-auto md:h-[40vh] bg-black text-white p-4 md:p-20">
-  <div className="text-center md:text-left mb-4 md:mb-0">
+  <div data-aos="fade-up"duration="2000" className="text-center md:text-left mb-4 md:mb-0">
     <span className="font-bold text-yellow-500">Services</span> 
     <a className="link link-hover">Branding</a> 
     <a className="link link-hover">Design</a> 
     <a className="link link-hover">Marketing</a> 
     <a className="link link-hover">Advertisement</a>
   </div> 
-  <div className="text-center md:text-left mb-4 md:mb-0">
+  <div data-aos="fade-up"duration="2000" className="text-center md:text-left mb-4 md:mb-0">
     <span className="font-bold text-yellow-500">Company</span> 
     <a className="link link-hover">About us</a> 
     <a className="link link-hover">Contact</a> 
     <a className="link link-hover">Jobs</a> 
     <a className="link link-hover">Press kit</a>
   </div> 
-  <div className="text-center md:text-left mb-4 md:mb-0">
+  <div data-aos="fade-up"duration="2000" className="text-center md:text-left mb-4 md:mb-0">
     <span className="font-bold text-yellow-500">Legal</span> 
     <a className="link link-hover">Terms of use</a> 
     <a className="link link-hover">Privacy policy</a> 
     <a className="link link-hover">Cookie policy</a>
     <a className="link link-hover">Security policy</a>
   </div> 
-  <div className="text-center md:text-left mb-4 md:mb-0">
+  <div data-aos="fade-up"duration="2000" className="text-center md:text-left mb-4 md:mb-0">
     <span className="font-bold text-yellow-500">Social</span> 
     <a className="link link-hover">Twitter</a> 
     <a className="link link-hover">Instagram</a> 
     <a className="link link-hover">Facebook</a> 
     <a className="link link-hover">Github</a>
   </div> 
-  <div className="text-center md:text-left">
+  <div data-aos="fade-up"duration="2000" className="text-center md:text-left">
     <span className="font-bold text-yellow-500">Apps</span> 
     <a className="link link-hover">Mac</a> 
     <a className="link link-hover">Windows</a> 
@@ -44,7 +44,7 @@ const Footer = () => {
 </footer>
 
 <footer  className="footer md:flex flex-col items-center justify-center  bg-black text-white p-4 ">
-  <div>
+  <div data-aos="fade-up"duration="2000">
     <h1 className='text-4xl text-yellow-500 font-bold text-center mx-auto'>FoodieZone</h1>
     <p className='text-yellow-500 font-medium text-sm py-2'>Copyright © 2023 - All rights reserved by FoodieZone Company Ltd.</p>
 

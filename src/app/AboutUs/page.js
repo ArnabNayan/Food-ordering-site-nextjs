@@ -1,3 +1,4 @@
+import AboutMeet from "@/components/AboutMeet";
 import AboutSave from "@/components/AboutSave";
 import AboutSlider from "@/components/AboutSlider";
 
@@ -8,9 +9,10 @@ export const metadata = {
 
 const AboutUs = () => {
     return (
-        <div>
+        <div className="overflow-x-hidden overflow-y-hidden">
            <AboutSlider/>
            <AboutSave/>
+           <AboutMeet/>
         </div>
     );
 };
